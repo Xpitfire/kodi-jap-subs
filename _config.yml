@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: Japanese Learning Subtitles
+description: Kodi addon repository for Japanese learning subtitles with real-time translation
+baseurl: "/kodi-jap-subs"
+url: "https://xpitfire.github.io"
