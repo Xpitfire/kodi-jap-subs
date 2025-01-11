@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Japanese Learning Subtitles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-11 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "General Settings"
+msgstr ""
+
+msgctxt "#32002"
+msgid "OpenAI API Key"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Subtitle Buffer Size"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Cache Duration (days)"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Enable Debug Logging"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Advanced Settings"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Clear Cache"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Audio Chunk Size"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Sample Rate"
+msgstr ""

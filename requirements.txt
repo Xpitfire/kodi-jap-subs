@@ -1,0 +1,4 @@
+requests>=2.22.0
+numpy>=1.19.0
+PyAudio>=0.2.11
+diskcache>=5.2.1
