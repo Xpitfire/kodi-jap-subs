@@ -1,21 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="repository.kodi-jap-subs" name="Japanese Learning Subtitles Repository" version="1.0.0" provider-name="Xpitfire">
+    <addons>
+        <addon id="repository.kodi-jap-subs" name="Japanese Learning Subtitles Repository" version="1.0.0" provider-name="Xpitfire">
         <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
+            <import addon="xbmc.addon" version="21.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Japanese Learning Subtitles Repository">
-            <dir>
-                <info compressed="false">https://xpitfire.github.io/kodi-jap-subs/addons.xml</info>
-                <checksum>https://xpitfire.github.io/kodi-jap-subs/addons.xml.md5</checksum>
-                <datadir zip="true">https://xpitfire.github.io/kodi-jap-subs/</datadir>
+        <extension point="xbmc.addon.repository">
+            <dir minversion="21.0.0">
+                <info compressed="false">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/zips</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Repository for Japanese Learning Subtitles Addon</summary>
             <description>Install Japanese Learning Subtitles addon for real-time subtitle generation and translation</description>
-            <disclaimer></disclaimer>
             <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="service.subtitles.jplearn" name="Japanese Learning Subtitles" version="1.0.0" provider-name="Xpitfire">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.addon" version="21.0.0"/>
+            <import addon="script.module.requests" version="2.22.0"/>
+            <import addon="script.module.numpy"/>
+            <import addon="script.module.pyaudio"/>
+            <import addon="script.module.diskcache"/>
+        </requires>
+        <extension point="xbmc.subtitle.module" library="service.py"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Real-time Japanese Learning Subtitles</summary>
+            <description lang="en">Real-time Japanese subtitles with Romaji and word translations for streaming content. Uses OpenAI Whisper and GPT-4 for transcription and translation.</description>
+            <platform>all</platform>
+            <language>en ja</language>
+            <license>MIT</license>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
