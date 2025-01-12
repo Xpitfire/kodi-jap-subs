@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons><addon id="repository.kodi-jap-subs" name="Japanese Learning Subtitles Repository" version="1.0.0" provider-name="Xpitfire">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0" />
-    </requires>
     <extension point="xbmc.addon.repository" name="Japanese Learning Subtitles Repository">
         <dir>
-            <info compressed="false">https://xpitfire.github.io/kodi-jap-subs/addons.xml</info>
-            <checksum>https://xpitfire.github.io/kodi-jap-subs/addons.xml.md5</checksum>
-            <datadir zip="true">https://xpitfire.github.io/kodi-jap-subs/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/zips</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repository for Japanese Learning Subtitles Addon</summary>
         <description>Install Japanese Learning Subtitles addon for real-time subtitle generation and translation</description>
-        <disclaimer />
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
