@@ -2,7 +2,6 @@
 <addon id="service.subtitles.jplearn" name="Japanese Learning Subtitles" version="1.0.0" provider-name="Xpitfire">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="xbmc.addon" version="21.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
         <import addon="script.module.numpy"/>
         <import addon="script.module.pyaudio"/>

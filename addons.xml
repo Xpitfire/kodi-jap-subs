@@ -1,10 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons><addon id="repository.kodi-jap-subs" name="Japanese Learning Subtitles Repository" version="1.0.0" provider-name="Xpitfire">
-    <requires>
-        <import addon="xbmc.addon" version="21.0.0" />
-    </requires>
     <extension point="xbmc.addon.repository">
-        <dir minversion="21.0.0">
+        <dir minversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Xpitfire/kodi-jap-subs/main/zips</datadir>
@@ -22,7 +19,6 @@
 </addon><addon id="service.subtitles.jplearn" name="Japanese Learning Subtitles" version="1.0.0" provider-name="Xpitfire">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="xbmc.addon" version="21.0.0" />
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="script.module.numpy" />
         <import addon="script.module.pyaudio" />
